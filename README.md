@@ -30,9 +30,6 @@ To get started with Windmemory, follow these steps:
    ```
    The application will be available at `http://localhost:3000`.
 
-## API Endpoints
-- **GET /api/prompts**: Fetch all prompts.
-
 ## Technology Stack
 - **Frontend**: SvelteKit, TailwindCSS
 - **Backend & Database**: Pocketbase
