@@ -10,7 +10,7 @@
         { href: '/', text: 'Home' },
         { href: '/share', text: 'Share' },
         { href: 'https://github.com/queaxtra/windmemory', text: 'Github' },
-        { href: 'https://x.com/queaxtra/windmemory', text: 'X (Twitter)' },
+        { href: 'https://x.com/queaxtra', text: 'X (Twitter)' },
     ];
 
     onMount(() => {
