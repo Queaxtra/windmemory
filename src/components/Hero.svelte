@@ -123,7 +123,7 @@
                     <span>{prompt.title}</span>
                     <span class="text-sm font-light opacity-30 flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" class="inline-block mr-1"><path fill="currentColor" d="M5 22q-.825 0-1.412-.587T3 20V6q0-.825.588-1.412T5 4h1V2h2v2h8V2h2v2h1q.825 0 1.413.588T21 6v14q0 .825-.587 1.412T19 22zm0-2h14V10H5z"/></svg>
-                        {new Date(prompt.date).toLocaleDateString()}
+                        {new Date(prompt.created).toLocaleDateString()}
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" class="inline-block mr-1 ml-2"><path fill="currentColor" d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z"/></svg>
                         {prompt.author}
                     </span>
